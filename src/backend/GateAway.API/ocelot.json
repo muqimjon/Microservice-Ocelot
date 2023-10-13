@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/users",
+      "DownstreamPathTemplate": "/api/users/{any}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -9,11 +9,11 @@
           "Port": 7067
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/users",
+      "UpstreamPathTemplate": "/api-gateway/users/{any}",
       "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
     },
     {
-      "DownstreamPathTemplate": "/api/cars",
+      "DownstreamPathTemplate": "/api/cars/{any}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -21,11 +21,11 @@
           "Port": 7097
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/cars",
+      "UpstreamPathTemplate": "/api-gateway/cars/{any}",
       "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
     },
     {
-      "DownstreamPathTemplate": "/api/courses",
+      "DownstreamPathTemplate": "/api/courses/{any}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -33,7 +33,7 @@
           "Port": 7135
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/courses",
+      "UpstreamPathTemplate": "/api-gateway/courses/{any}",
       "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
     }
   ]
