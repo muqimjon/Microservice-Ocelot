@@ -10,8 +10,31 @@
         }
       ],
       "UpstreamPathTemplate": "/api-gateway/users",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
-
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/cars",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7097
+        }
+      ],
+      "UpstreamPathTemplate": "/api-gateway/cars",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/courses",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7135
+        }
+      ],
+      "UpstreamPathTemplate": "/api-gateway/courses",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
     }
   ]
 }
