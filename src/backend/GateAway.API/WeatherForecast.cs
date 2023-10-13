@@ -1,4 +1,4 @@
-namespace ProjectOne.API
+namespace GateAway.API
 {
     public class WeatherForecast
     {

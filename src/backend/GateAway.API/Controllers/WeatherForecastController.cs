@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProjectOne.API.Controllers
+namespace GateAway.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
