@@ -4,7 +4,7 @@ namespace ProjectOne.API.Controllers;
 
 public class UsersController : BaseController
 {
-    [HttpGet]
+    [HttpGet("get")]
     public IEnumerable<string> Get()
     {
         return new string[] 

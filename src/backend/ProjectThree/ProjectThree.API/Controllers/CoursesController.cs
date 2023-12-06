@@ -5,7 +5,7 @@ namespace ProjectThree.API.Controllers;
 
 public class CoursesController : BaseController
 {
-    [HttpGet]
+    [HttpGet("get")]
     public IEnumerable<string> Get()
     {
         return new string[]

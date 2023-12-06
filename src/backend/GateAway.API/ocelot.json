@@ -1,40 +1,43 @@
 {
   "Routes": [
     {
+         //  http://localhost:5245/api/Users/get
       "DownstreamPathTemplate": "/api/users/{any}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7067
+          "Port": 5245
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/users/{any}",
+      "UpstreamPathTemplate": "/users/{any}",
       "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
     },
     {
+         //  http://localhost:5077/api/Cars/get
       "DownstreamPathTemplate": "/api/cars/{any}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7097
+          "Port": 5077
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/cars/{any}",
-      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+      "UpstreamPathTemplate": "/cars/{any}",
+      "UpstreamHttpMethod": [ "Get" ]
     },
     {
+         //  http://localhost:5239/api/Courses/get
       "DownstreamPathTemplate": "/api/courses/{any}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7135
+          "Port": 5239
         }
       ],
-      "UpstreamPathTemplate": "/api-gateway/courses/{any}",
-      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Put", "Delete" ]
+      "UpstreamPathTemplate": "/courses/{any}",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ]
 }

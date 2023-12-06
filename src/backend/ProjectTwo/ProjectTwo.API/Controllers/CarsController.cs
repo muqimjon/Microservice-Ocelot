@@ -5,7 +5,7 @@ namespace ProjectTwo.API.Controllers;
 
 public class CarsController : BaseController
 {
-    [HttpGet]
+    [HttpGet("get")]
     public IEnumerable<string> Get()
     {
         return new string[] 
