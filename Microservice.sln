@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFC43C51-97A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{CF796429-3375-4800-8F1C-BCC3C15F88E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectOne.API", "src\backend\ProjectOne\ProjectOne.API\ProjectOne.API.csproj", "{870FEDD9-5441-4CFD-8095-FF22420879DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.WebApi", "src\backend\ProjectOne\ProjectOne.API\User.WebApi.csproj", "{870FEDD9-5441-4CFD-8095-FF22420879DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateAway.API", "src\backend\GateAway.API\GateAway.API.csproj", "{B655E871-A2F2-4649-B112-B235BB5E83C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTwo.API", "src\backend\ProjectTwo\ProjectTwo.API\ProjectTwo.API.csproj", "{247FAEC2-6E90-4097-A05F-3E2A5C3BE50F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car.WebApi", "src\backend\ProjectTwo\ProjectTwo.API\Car.WebApi.csproj", "{247FAEC2-6E90-4097-A05F-3E2A5C3BE50F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectThree.API", "src\backend\ProjectThree\ProjectThree.API\ProjectThree.API.csproj", "{329BCA80-3A11-445C-9739-9EE4F07CD006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.WebApi", "src\backend\ProjectThree\ProjectThree.API\Course.WebApi.csproj", "{329BCA80-3A11-445C-9739-9EE4F07CD006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
